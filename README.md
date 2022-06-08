@@ -60,5 +60,4 @@ Blog I followed to learn working with APIs in react - https://blog.logrocket.com
 
 ## Screenshots
 
-![App Screenshot](src/images/Screenshot)
-
+![Screenshot](https://user-images.githubusercontent.com/41651784/172735591-0ab62f33-e76a-461e-b204-522235d61caa.png)
