@@ -3,6 +3,8 @@
 
 A web-application made using React and RapidAPI to quickly search generic name of varierty of existing drugs.
 
+![Screenshot](https://user-images.githubusercontent.com/41651784/172735591-0ab62f33-e76a-461e-b204-522235d61caa.png)
+
 Why Generic Names?
 -
 
@@ -11,10 +13,11 @@ Why Generic Names?
 
 
 Target Users - Students and Doctors practicing Medicine
-## Authors
 
-- [@AtajSingh](https://github.com/mambawolf)
+## Features
 
+- Instant dynamic search
+- Mobile Responsive
 
 ## API Reference
 
@@ -31,17 +34,6 @@ Target Users - Students and Doctors practicing Medicine
 
 https://rapidapi.com/rnelsomain/api/drug-info-and-price-history/
 
-
-## Acknowledgements
-
- - [Know about medicine brands and generic names](https://consumermedsafety.org/medication-safety-articles/item/411-why-you-need-to-know-your-medicines-brand-and-generic-names%E2%80%9D)
- - [Drug Info and Price History Documentation](https://rapidapi.com/rnelsomain/api/drug-info-and-price-history/)
-
-
-## Appendix
-
-Blog I followed to learn working with APIs in react - https://blog.logrocket.com/modern-api-data-fetching-methods-react/
-
 ## Color Reference
 
 | Color             | Hex                                                                |
@@ -51,13 +43,16 @@ Blog I followed to learn working with APIs in react - https://blog.logrocket.com
 | Black | #000000 |
 | Grey | #4b5563 |
 
+## Authors
 
-## Features
+- [@AtajSingh](https://github.com/mambawolf)
 
-- Instant dynamic search
-- Mobile Responsive
+## Acknowledgements
 
+ - [Know about medicine brands and generic names](https://consumermedsafety.org/medication-safety-articles/item/411-why-you-need-to-know-your-medicines-brand-and-generic-names%E2%80%9D)
+ - [Drug Info and Price History Documentation](https://rapidapi.com/rnelsomain/api/drug-info-and-price-history/)
 
-## Screenshots
+## Appendix
 
-![Screenshot](https://user-images.githubusercontent.com/41651784/172735591-0ab62f33-e76a-461e-b204-522235d61caa.png)
+Blog I followed to learn working with APIs in react - https://blog.logrocket.com/modern-api-data-fetching-methods-react/
+
