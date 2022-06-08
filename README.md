@@ -1,70 +1,64 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Medicine's Generic Name Searcher
 
-## Available Scripts
+A web-application made using React and RapidAPI to quickly search generic name of varierty of existing drugs.
 
-In the project directory, you can run:
+Why Generic Names?
+-
 
-### `npm start`
+- All medicines have one generic name, and perhaps one or more brand names.
+- When you are taking medicine, it is important to know both the generic and the brand names. This information will prevent you from taking too much of the same medicine, which can lead to an overdose.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Target Users - Students and Doctors practicing Medicine
+## Authors
 
-### `npm test`
+- [@AtajSingh](https://github.com/mambawolf)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## API Reference
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Get Generic name of Drugs
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```http
+  GET genericname
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Parameter | Type     | Description                |
+| :-------- | :------- | :------------------------- |
+| `api_key` | `string` | **Required**. Your API key |
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+https://rapidapi.com/rnelsomain/api/drug-info-and-price-history/
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Acknowledgements
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ - [Know about medicine brands and generic names](https://consumermedsafety.org/medication-safety-articles/item/411-why-you-need-to-know-your-medicines-brand-and-generic-names%E2%80%9D)
+ - [Drug Info and Price History Documentation](https://rapidapi.com/rnelsomain/api/drug-info-and-price-history/)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Appendix
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Blog I followed to learn working with APIs in react - https://blog.logrocket.com/modern-api-data-fetching-methods-react/
 
-### Code Splitting
+## Color Reference
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Fine Light Green | #a7f3d0 |
+| Light Green | #4ade80 |
+| Black | #000000 |
+| Grey | #4b5563 |
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Features
 
-### Making a Progressive Web App
+- Instant dynamic search
+- Mobile Responsive
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![App Screenshot](src/images/Screenshot)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
